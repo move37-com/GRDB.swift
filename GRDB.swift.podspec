@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.module_map = 'Support/module.modulemap'
   s.framework = 'Foundation'
   s.library = 'sqlite3'
+  s.swift_version = '4.2'
 end
